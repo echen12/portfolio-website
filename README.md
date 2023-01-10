@@ -7,10 +7,10 @@
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
     <br />
     <strong>Site URL / Demo » </strong>
-    <a href="https://hashirshoaeb.github.io/portfolio"> hashirshoaeb.github.io/portfolio</a>
+    <a href="https://echen12.github.io/portfolio-website/"> echen12.github.io/portfolio-website/</a>
     <br />
     <br />
-    <a href="https://hashirshoaeb.com">About Me</a>
+    <a href="https://echen12.github.io/portfolio-website/">About Me</a>
     ·
     <a href="https://github.com/hashirshoaeb/portfolio/issues">Report Bug</a>
     ·
@@ -18,11 +18,7 @@
   </p>
 </p>
 
-[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/portfolio?style=for-the-badge)](https://github.com/hashirshoaeb/portfolio/network)
-[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/portfolio?style=for-the-badge)](https://github.com/hashirshoaeb/portfolio/blob/master/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
-[![Node Version](https://img.shields.io/static/v1?label=Node&message=16.16.0&color=026e00&style=for-the-badge)](https://nodejs.org)
-[![npm Version](https://img.shields.io/static/v1?label=npm&message=8.11.0&color=cb0000&style=for-the-badge)](https://nodejs.org)
+# Edit: I'd like to thank <a href="https://github.com/hashirshoaeb/portfolio">Hashir</a> for making this portfolio website template. All credit goes to him for the original website layout.
 
 
 <!-- TABLE OF CONTENTS -->
@@ -49,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
-[![Product Name Screen Shot](/READMEdocs/screenshot.gif)](https://example.com)
+
 
 There are many portfolio website templates available on Github, however, I didn't find one that really suit my needs so I created this one. A simple, easy to configure, lightweight, and responsive static portfolio website.
 
