@@ -1,6 +1,9 @@
 import React from 'react';
 import getConfig from 'next/config'
 import Link from 'next/link'
+import { faLocation, faLocationDot, faLocationPin, faSquareCheck } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const { publicRuntimeConfig } = getConfig()
 
@@ -9,9 +12,13 @@ export const Intro = ({ title, description, image, buttons }) => {
 		<div className="bg-secondary py-5 px-5">
 			<div className="container">
 				<div className=" row align-items-center">
-					<div className="col-sm-6">
+					<div className="col-sm-6 text-center">
 						<h1 className="text-primary fw-bold display-3">{title}</h1>
 						<p>{description}</p>
+						<div className='d-flex gap-2 justify-content-center mb-3'>
+							<a href=""><FontAwesomeIcon className="icon-style mx-1" icon={faLinkedin} size="2x" /></a>
+							<a href=""><FontAwesomeIcon className="icon-style mx-1" icon={faGithub} size="2x" /></a>
+						</div>
 						<div className="text-center">
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?

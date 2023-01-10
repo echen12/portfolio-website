@@ -1,7 +1,9 @@
 
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import workImage from '../config/univerus.png';
+
 
 export const navigation = {
 	name: "Edmond",
@@ -14,29 +16,24 @@ export const navigation = {
 			title: "Projects",
 			link: "#projects",
 		},
-		{
-			title: "Contact",
-			link: "#contact",
-		},
-		{
-			title: "Links",
-			link: "/links",
-		},
+		// {
+		// 	title: "Contact",
+		// 	link: "#contact",
+		// },
+		// {
+		// 	title: "Links",
+		// 	link: "/links",
+		// },
 	],
 }
 export const intro = {
-	title: "Hey, I'm Edmond",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Edmond!",
+	description: "I'm a student studying computer science and an aspiring software developer.",
 	image: profile.src,
 	buttons: [
 		{
-			title: "Contact Me",
-			link: "#contact",
-			isPrimary: true,
-		},
-		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1v71sivTdoOIbByHcwvP3M57LO8UNUTbt/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,24 +42,23 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"Hi there! My name is Edmond and I am a 2nd year student studying computer science at the British Columbia Institute of Technology (BCIT). I have always been passionate about technology and am excited to pursue a career as a software developer.",
+		"I have gained a strong foundation in computer science through my coursework, which has included topics such as data structures, algorithms, and object-oriented programming. I am also constantly learning and improving my skills through online resources and side projects.",
+		"In my spare time, I enjoy participating in hackathons and coding challenges, as well as staying up-to-date on the latest technologies and industry trends. I am a hard worker and am always eager to take on new challenges.",
 	],
 }
 
 export const work = {
-	title: "What I do",
+	title: "Work Experience",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-			icons: null,
-		},
-		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
-			icons: null,
+			workName: "Univerus Software Inc",
+			position: "Junior Software Developer Internship",
+			duration: "May 2022 - Dec 2022",
+			location: "Port Moody, BC",
+			description: "During my first internship at Univerus, I was a junior full stack developer working with ASP.Net Core, SQL and React.js. I worked on projects like enabling the functionality to translate 5 production level applications to different languages.  I participated in daily standups and bi-monthly sprint planning sessions, voicing my opinion on team related matters and providing on any issues I felt necessary.",
+			workLink: "https://univerus.com/",
+			companyLogo: workImage,
 		}
 	],
 }
@@ -71,30 +67,22 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "Dryvetrack",
+			description: "DryveTrack is a one-stop-shop for all of your vehicle maintenance needs. This application tracks vehicles, mileage, warranty information and oil life to maintain vehicular upkeep.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/echen12/dryvetrack-front",
 				},
 			]
 		},
 		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			title: "Communiti",
+			description: "Communiti is designed to connect individuals with meaningful volunteering opportunities in their local community. Users can search for opportunities based on their location, availability, and areas of interest, and can also create profiles to track their volunteer hours and accomplishments.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faGithub,
+					link: "https://github.com/Nandddy/Communiti",
 				},
 			]
 		},
@@ -104,10 +92,10 @@ export const projects = {
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/echen12/portfolio-website",
 				},
 			]
-		},
+		}
 	],
 }
 
@@ -131,9 +119,9 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-	image: profile.src,
+	title: "Edmond Chen"
+	// description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	// image: profile.src,
 }
 
 export const links = {
