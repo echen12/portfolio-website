@@ -33,7 +33,7 @@ export const intro = {
 	buttons: [
 		{
 			title: "Resume",
-			link: "https://drive.google.com/file/d/1v71sivTdoOIbByHcwvP3M57LO8UNUTbt/view?usp=sharing",
+			link: "https://drive.google.com/file/d/1S2PZEBsjTMUjTu4xxOyqvPHVM_dXQ0tK/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
